@@ -1,0 +1,59 @@
+*{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+p,li,h1,h2,label{
+    color: white;
+}
+
+input, textarea{
+    box-decoration-break: unset;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 5vh;
+}
+
+li{
+    margin: 1vh;
+}
+
+.divisao{
+    height: 60%;
+    
+}
+.sty-bio{
+    position: relative;
+    z-index: 0;
+    top: 50%;
+    align-items: center;
+}
+.sty-contato{
+    align-items: center;
+    background-color: black;
+    
+}
+
+.sty-videobio{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.sty-lista{
+    flex-direction: row;
+    align-items: center;
+}
+
+.sty-meusDados{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    top: 100vh;
+    align-items: center;
+    width: 55%;
+}
+
+
